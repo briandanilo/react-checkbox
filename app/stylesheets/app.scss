@@ -1,16 +1,34 @@
-$big-font: 15rem;
-
-.jumbo {
-    color: #333;
-    font-size: $big-font;
-    margin: 0;
-    text-shadow: 1px 2px 1px #DEDEDE, 2px 3px 0 #FEFEFE, -1px -1px 0 #222;
+body {
+  margin: 1em;
 }
 
-html {
-    body {
-        margin: 0;
-        padding: 0;
-        background: #CACACA;
-    }
+.doc {
+  outline: 1px solid lightgray;
+  padding: 1em;
+}
+
+.mark-as-read {
+  position: absolute;
+  right: 1em;
+}
+
+.confirm-read-btn{
+  margin-right: 20px;
+}
+
+.cancel-read-btn{
+  margin-right: 20px;
+}
+
+.hide {
+  display: none; 
+}
+
+.confirm-modal {
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 40%; /* Full width */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin: 0 auto;
+    padding: 1em;
 }
